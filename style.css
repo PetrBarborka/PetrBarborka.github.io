@@ -1,0 +1,36 @@
+/* Styles go here */
+html {
+  text-align: center;
+  font-family:"Signika",sans-serif;
+  /* color: grey; */
+}
+
+table, th, td {
+  border-collapse: collapse;
+  border: 1px solid #ccc;
+  text-align: left;
+}
+th, td {
+  padding: 1em;
+}
+th {
+    background-color: #555;
+    color: white;
+}
+.hi {
+  color: black;
+  font-weight: 500;
+  text-decoration: underline;
+}
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  font-size: 1200%;
+}
+a:visited {
+  color: black;
+}
